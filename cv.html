@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Alphonse</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background: #e9eef1;
+      color: #333;
+    }
+
+    .cv-container {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      background-color: #0d2b3e;
+      color: #fff;
+      padding: 30px 20px;
+    }
+
+    .sidebar .photo {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .sidebar img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-top: 25px;
+      border-bottom: 1px solid #1e4c64;
+      padding-bottom: 5px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    .sidebar ul li {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    .sidebar i {
+      margin-right: 10px;
+      color: #00bcd4;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #0d2b3e;
+    }
+
+    header h3 {
+      margin: 5px 0 20px;
+      color: #888;
+      font-weight: 400;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    section h2 {
+      color: #0d2b3e;
+      margin-bottom: 10px;
+      font-size: 20px;
+      border-bottom: 2px solid #0d2b3e;
+      padding-bottom: 5px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #0d2b3e;
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin: 2px 5px 2px 0;
+    }
+
+    p {
+      margin: 8px 0;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .cv-container {
+        grid-template-columns: 1fr;
+      }
+
+      .content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="cv-container">
+  <aside class="sidebar">
+    <div class="photo">
+      <img src="KOLORO_1740760298283-removebg-preview.png" alt="Photo de profil">
+    </div>
+
+    <h2>Profil</h2>
+    <p>Étudiant en 3e année passionné par la conception d'applications intuitives et performantes.</p>
+
+    <h2>Contact</h2>
+    <ul>
+      <li><i class="fas fa-phone"></i> 0389175473</li>
+      <li><i class="fas fa-envelope"></i> alphonsetsila0@gmail.com</li>
+      <li><i class="fas fa-map-marker-alt"></i> Antsirabe, Madagascar</li>
+      <li><i class="fab fa-github"></i> github.com/Alphonsetsila</li>
+    </ul>
+
+    <h2>Outils</h2>
+    <ul>
+      <li>Postman</li>
+      <li>Git & Github</li>
+    </ul>
+
+    <h2>Langues</h2>
+    <ul>
+      <li>Malagasy (Courant)</li>
+      <li>Français (Intermédiaire)</li>
+      <li>Anglais (Notions)</li>
+    </ul>
+
+    <h2>Centres d'intérêt</h2>
+    <ul>
+      <li>Films</li>
+      <li>Livres</li>
+      <li>Musique</li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <header>
+      <h1>RANDRIANIRINA Alphonse</h1>
+      <h3>Développeur</h3>
+    </header>
+
+    <section>
+      <h2><i class="fas fa-briefcase"></i> Expérience</h2>
+      <p><strong>Parama-if</strong><br>
+        Stage : Responsable Informatique</p>
+      <p><strong>Hackathon HIU (Fullstack)</strong><br>
+        TechZara - 2025</p>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-project-diagram"></i> Projets</h2>
+      <p><strong>Vent-arts</strong> — <span class="badge">ReactJS</span> <span class="badge">PHP</span></p>
+      <p><strong>Gestion info médicale</strong> — <span class="badge">HTML/CSS</span> <span class="badge">JS</span> <span class="badge">PHP</span></p>
+      <p><strong>Gestion patient</strong> — <span class="badge">Bootstrap</span> <span class="badge">PHP</span></p>
+      <p><strong>Portfolio</strong> — <span class="badge">ReactJS</span> <span class="badge">PHP</span></p>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-graduation-cap"></i> Éducation</h2>
+      <p><strong>IFT (Institut de Formation Technique)</strong><br>
+        2023 - présent<br>
+        Informatique et Programmation - DTS</p>
+      <p><strong>Cours Fameno</strong><br>
+        BACC</p>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-cogs"></i> Technologies</h2>
+      <p><strong>Frameworks :</strong> React JS, Bootstrap, CodeIgniter, jQuery, Django</p>
+      <p><strong>Langages :</strong> PHP, Python, JavaScript</p>
+      <p><strong>BDD :</strong> MySQL, PostgreSQL, SQLite</p>
+    </section>
+  </main>
+</div>
+
+</body>
+</html>
