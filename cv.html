@@ -7,17 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
     body {
       font-family: 'Montserrat', sans-serif;
       margin: 0;
-      background: #e9eef1;
+      background: #f4f7f9;
       color: #333;
     }
-
     .cv-container {
       display: grid;
       grid-template-columns: 280px 1fr;
@@ -28,68 +24,31 @@
       border-radius: 10px;
       overflow: hidden;
     }
-
     .sidebar {
       background-color: #0d2b3e;
       color: #fff;
       padding: 30px 20px;
     }
-
-    .sidebar .photo {
-      text-align: center;
-      margin-bottom: 25px;
-    }
-
+    .sidebar .photo { text-align: center; margin-bottom: 25px; }
     .sidebar img {
       width: 200px;
       height: 200px;
       border-radius: 50%;
       object-fit: cover;
     }
-
     .sidebar h2 {
       font-size: 18px;
       margin-top: 25px;
       border-bottom: 1px solid #1e4c64;
       padding-bottom: 5px;
     }
-
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 10px 0;
-    }
-
-    .sidebar ul li {
-      margin: 8px 0;
-      font-size: 14px;
-    }
-
-    .sidebar i {
-      margin-right: 10px;
-      color: #00bcd4;
-    }
-
-    .content {
-      padding: 40px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-      color: #0d2b3e;
-    }
-
-    header h3 {
-      margin: 5px 0 20px;
-      color: #888;
-      font-weight: 400;
-    }
-
-    section {
-      margin-top: 30px;
-    }
-
+    .sidebar ul { list-style: none; padding: 0; margin: 10px 0; }
+    .sidebar ul li { margin: 8px 0; font-size: 14px; }
+    .sidebar i { margin-right: 10px; color: #00bcd4; }
+    .content { padding: 40px; }
+    header h1 { margin: 0; font-size: 28px; color: #0d2b3e; }
+    header h3 { margin: 5px 0 20px; color: #555; font-weight: 400; }
+    section { margin-top: 30px; }
     section h2 {
       color: #0d2b3e;
       margin-bottom: 10px;
@@ -97,7 +56,6 @@
       border-bottom: 2px solid #0d2b3e;
       padding-bottom: 5px;
     }
-
     .badge {
       display: inline-block;
       background: #0d2b3e;
@@ -107,33 +65,21 @@
       font-size: 12px;
       margin: 2px 5px 2px 0;
     }
-
-    p {
-      margin: 8px 0;
-      line-height: 1.6;
-    }
-
+    p { margin: 8px 0; line-height: 1.6; }
     @media (max-width: 768px) {
-      .cv-container {
-        grid-template-columns: 1fr;
-      }
-
-      .content {
-        padding: 20px;
-      }
+      .cv-container { grid-template-columns: 1fr; }
+      .content { padding: 20px; }
     }
   </style>
 </head>
 <body>
-
 <div class="cv-container">
   <aside class="sidebar">
     <div class="photo">
       <img src="KOLORO_1740760298283-removebg-preview.png" alt="Photo de profil">
     </div>
-
     <h2>Profil</h2>
-    <p>Étudiant en 3e année passionné par la conception d'applications intuitives et performantes.</p>
+    <p>Développeur Fullstack passionné, spécialisé dans la création d’applications web modernes et optimisées. Expérience en conception d’interfaces intuitives, intégration d’API et déploiement sur des plateformes comme Webflow. Curieux, autonome et motivé à contribuer à des projets innovants en équipe.</p>
 
     <h2>Contact</h2>
     <ul>
@@ -143,10 +89,12 @@
       <li><i class="fab fa-github"></i> github.com/Alphonsetsila</li>
     </ul>
 
-    <h2>Outils</h2>
+    <h2>Compétences Outils</h2>
     <ul>
       <li>Postman</li>
-      <li>Git & Github</li>
+      <li>Git & GitHub</li>
+      <li>Figma</li>
+      <li>Webflow</li>
     </ul>
 
     <h2>Langues</h2>
@@ -158,51 +106,74 @@
 
     <h2>Centres d'intérêt</h2>
     <ul>
-      <li>Films</li>
-      <li>Livres</li>
-      <li>Musique</li>
+      <li>Conception UX/UI</li>
+      <li>Technologies Web</li>
+      <li>Lecture & Musique</li>
     </ul>
   </aside>
 
   <main class="content">
     <header>
       <h1>RANDRIANIRINA Alphonse</h1>
-      <h3>Développeur</h3>
+      <h3>Développeur Fullstack | Webflow & React</h3>
     </header>
 
     <section>
+      <h2><i class="fas fa-user-tie"></i> Profil Professionnel</h2>
+      <p>Employé orienté résultats, avec une forte capacité d’adaptation et d’apprentissage. J’aime travailler en équipe et relever des défis techniques tout en assurant la qualité et la performance des solutions livrées.</p>
+    </section>
+
+    <section>
       <h2><i class="fas fa-briefcase"></i> Expérience</h2>
+      <p><strong>Konsiloj</strong><br>
+        Développeur Frontend React (Stage – 4 mois)<br>
+        - Conception et développement d’interfaces dynamiques en React.<br>
+        - Intégration de composants réutilisables et respect des bonnes pratiques de responsive design.<br>
+        - Collaboration avec l’équipe backend pour assurer la fluidité des échanges API.<br>
+        - Amélioration des performances et optimisation du code pour une meilleure expérience utilisateur.<br>
+      </p>
+
       <p><strong>Parama-if</strong><br>
-        Stage : Responsable Informatique</p>
+        Responsable Informatique (Stage – 3 mois)<br>
+        - Réalisation d’un projet de sécurisation des informations médicales à l’aide d’un système basé sur la blockchain.<br>
+        - Développement Fullstack (front & back-end) pour garantir la confidentialité et la traçabilité des données.<br>
+        - Mise en place de protocoles de sécurité et tests d’intégrité.<br>
+      </p>
+
       <p><strong>Hackathon HIU (Fullstack)</strong><br>
-        TechZara - 2025</p>
+        MDE - 2025<br>
+        - Participation en équipe à un hackathon national sur le développement d’applications innovantes.<br>
+        - Réalisation d’un prototype fullstack en un temps limité.<br>
+        - Classement dans le Top 3 avec une solution innovante de gestion des ressources numériques.<br>
+      </p>
+
+      <p><strong>Projet Freelance</strong><br>
+        Intégrateur Webflow — Conception et personnalisation de sites vitrines, intégration de formulaires dynamiques et optimisation SEO - 2024</p>
     </section>
 
     <section>
       <h2><i class="fas fa-project-diagram"></i> Projets</h2>
-      <p><strong>Vent-arts</strong> — <span class="badge">ReactJS</span> <span class="badge">PHP</span></p>
-      <p><strong>Gestion info médicale</strong> — <span class="badge">HTML/CSS</span> <span class="badge">JS</span> <span class="badge">PHP</span></p>
-      <p><strong>Gestion patient</strong> — <span class="badge">Bootstrap</span> <span class="badge">PHP</span></p>
-      <p><strong>Portfolio</strong> — <span class="badge">ReactJS</span> <span class="badge">PHP</span></p>
+      <p><strong>Portfolio</strong> — <span class="badge">Webflow</span></p>
+      <p><strong>Artshops</strong> — <span class="badge">Webflow</span></p>
+      <p><strong>blog</strong> — <span class="badge">Webflow</span></p>
     </section>
 
     <section>
       <h2><i class="fas fa-graduation-cap"></i> Éducation</h2>
-      <p><strong>IFT (Institut de Formation Technique)</strong><br>
-        2023 - présent<br>
-        Informatique et Programmation - DTS</p>
+      <p><strong>IFT (Institut de Formation Technique)</strong>
+        <br> <b>-</b>Licence en Informatique et Programmation - IFT<br>
+        <b>-</b>Informatique et Programmation - DTS</p>
       <p><strong>Cours Fameno</strong><br>
-        BACC</p>
+        Baccalauréat</p>
     </section>
 
     <section>
       <h2><i class="fas fa-cogs"></i> Technologies</h2>
-      <p><strong>Frameworks :</strong> React JS, Bootstrap, CodeIgniter, jQuery, Django</p>
-      <p><strong>Langages :</strong> PHP, Python, JavaScript</p>
-      <p><strong>BDD :</strong> MySQL, PostgreSQL, SQLite</p>
+      <p><strong>Frameworks :</strong> React JS, Bootstra, jQuery</p>
+      <p><strong>Langages :</strong> HTML, CSS, JavaScript</p>
+      <p><strong>Base de données :</strong> MySQL, PostgreSQL, SQLite</p>
     </section>
   </main>
 </div>
-
 </body>
 </html>
